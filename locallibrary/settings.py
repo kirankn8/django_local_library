@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'zt9g8r#$$!ey@7gc8$-z399f@9m0%h
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['whispering-shelf-69719.herokuapp.com','127.0.0.1']
 
 
 # Application definition
