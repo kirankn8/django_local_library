@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Text backup files
+*.bak
+
+#Database
+*.sqlite3
